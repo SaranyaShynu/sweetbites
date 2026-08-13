@@ -43,7 +43,7 @@ export default function Testimonials() {
                     {/* Customer */}
                     <div className="mt-8 flex items-center gap-4">
                         <div className="flex h-12 w-12c= items-center justify-center rounded-full bg-[#F7D6C8] text-lg font-semibold text-[#D88C9A]">
-                           {testimonial.name,charAt(0)} 
+                           {testimonial.name.charAt(0)} 
                         </div>
 
                         <div>
